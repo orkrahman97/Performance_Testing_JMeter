@@ -1,6 +1,7 @@
 # Performance_Testing_JMeter
 
-This document shows the performance test 
+This document shows the performance test.
+Visit wiki for More Details
 
 
 
