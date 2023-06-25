@@ -2,7 +2,6 @@
 This document shows the performance test 
 
 
-# Performance_Testing_JMeter
 
 
 ## Load Testing
