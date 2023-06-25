@@ -1,5 +1,6 @@
 # Performance_Testing_JMeter
-This document shows the performance test 
+##This document shows the performance test 
+###Contents
 
 
 
@@ -35,6 +36,68 @@ when we increased the number of users to 150, we encountered a 5% error rate. Th
 ![image](https://github.com/orkrahman97/Performance_Testing_JMeter/assets/67518144/f47ffeaf-de59-43f4-ad8f-517a7720636b)
 
 ![image](https://github.com/orkrahman97/Performance_Testing_JMeter/assets/67518144/303f430d-acad-4d77-8fef-3b684991ece9)
+
+
+
+# Stress Test
+### Test:1 For 100 users and a response assertion of 200, as evidenced by the 5.50% error rate 
+![image](https://github.com/orkrahman97/Performance_Testing_JMeter/assets/67518144/e5690f92-5784-43fd-858f-c36e0cde47bc)
+
+ 
+### **Stress Testing Report**
+### **Test-1 (Taking the ideal Response Assertion of 200)**
+**Number of Users: 100**
+**Response Assertion: 200**
+**Test Results:**
+**Test: pass**
+**Result: 5.50% error rate**
+**Analysis: On the homepage of the website, we deal with 100 users and response assertion set to 200, the system performed well, with a 5.50% error rate. This indicates that the system can handle the specified load and meet the performance expectations. The stress test was successful, and the system was found to be working properly under these conditions.**
+
+
+
+### Test-02 For 150 users and a response assertion of 200, as evidenced by the 1.00% error rate  **
+
+![image](https://github.com/orkrahman97/Performance_Testing_JMeter/assets/67518144/8e11dbba-8842-47c6-8a25-82165bfbb75f)
+
+### **Stress Testing Report**
+### **Test-2 (Taking the ideal Response Assertion of 200)**
+**Number of Users: 150**
+**Response Assertion: 200**
+**Test Results:**
+**Test: pass**
+**Result: 1% error rate**
+**Analysis: On the homepage of the website, we deal with 150 users and response assertion set to 200, the system performed well, with a 1.07% error rate. This indicates that the system can handle the specified load and meet the performance expectations. The stress test was successful, and the system was found to be working properly under these conditions.**
+
+
+
+### Test-03 For 200 users and a response assertion of 200, as evidenced by the 7.58% error rate**
+ 
+![image](https://github.com/orkrahman97/Performance_Testing_JMeter/assets/67518144/9ff4292c-2215-423c-bb5a-e2c64e7c5d9d)
+
+ 
+ 
+### **Stress Testing Report**
+### **Test- 3 (Taking the ideal Response Assertion of 200)**
+**Number of Users: 200**
+**Response Assertion: 200**
+**Test Results:**
+**Test: pass**
+**Result: 7.58 % error rate**
+**Analysis: On the homepage of the website, we deal with 200 users and response assertion set to 200, the system performed well, with a 7.58% error rate. This indicates that the system can handle the specified load and meet the performance expectations. The stress test was successful, and the system was found to be working properly under these conditions.**
+
+### Test-04 For 200 users and a response assertion of 201, as evidenced by the 100% error rate**
+![image](https://github.com/orkrahman97/Performance_Testing_JMeter/assets/67518144/a756b4b6-d0bf-432c-846b-af0f9a6358b5)
+
+### **Stress Testing Report**
+### **Test-4 (Taking Response Assertion of 201)**
+**Scenario: Response Assertion 201**
+**Number of Users: 200**
+**Response Assertion: 201**
+**Test Results:**
+**Test: Fail**
+**Result: 100% error rate**
+**Analysis: In this scenario, we increased the response assertion to 201. Unfortunately, the system experienced a 100% error rate.**
+**I observe that a response assertion of 200 users with a maximum of 200 users is the ideal configuration for the Bangla Puzzle website. Beyond this number of users, performance might drop and error rates might increase.**
 
 
 
